@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WinRAR</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+            crossorigin="anonymous">
+    </head>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <body>
+        
+        <nav class="navbar navbar-expand-lg rounded custom-navbar" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="./index.html" style="color: rgb(73, 73, 73);"><img src="./assets/img/rar/logo2.png" width="35px"> WinRAR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./products.html">Products</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./download.html">Download</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./industries.html">Industries</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./partner.html">Partner</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./support.html">Support</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./news.html">News</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search" style="width: 400px;">
+                    <input class="form-control me-3" type="search" placeholder="Enter your search term here" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+            
+              </div>
+            </div>
+          </nav>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="container my-5 startContainer">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg lead">
+                
+            <div style="padding: 40px;">
+                <div id="lkdiv">
+                    <h2>Become A WinRAR Reseller</h2>
+                    <p>Please fill out all fields marked with an asterisk <span>*</span>.<br>Please complete this form in
+                        English.<br>&nbsp;<br><b>* Required</b></p>
+                    <form action="" method="POST">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="legend" colspan="2">
+                                        <legend>Contact Information</legend>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Contact person - First name: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField"
+                                            name="f_contactperson-firstname" placeholder="First name" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Contact person - Last name: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField"
+                                            name="f_contactperson-lastname" placeholder="Last name" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Company name:</td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_companyname"
+                                            placeholder="Company name" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Company address: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_companyaddress"
+                                            placeholder="Company address" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">ZIP code: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_zipcode"
+                                            placeholder="ZIP code" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">City: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_city"
+                                            placeholder="City" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">State/Region:</td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_stateregion"
+                                            placeholder="State/Region" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Country: <span>*</span></td>
+                                    <td class="contactInputTd"><select class="contactField" name="f_country" required="">
+                                            <option value="" disabled="" selected="" hidden="">Country</option>
+                                            <option>Afghanistan, Islamic Republic of</option>
+                                            <option>Åland Islands</option>
+                                            <option>Albania, Republic of</option>
+                                            <option>Algeria, People\'s Democratic Republic of</option>
+                                            <option>American Samoa</option>
+                                            <option>Andorra, Principality of</option>
+                                            <option>Angola, Republic of</option>
+                                            <option>Anguilla</option>
+                                            <option>Antarctica (the territory South of 60 deg S)</option>
+                                            <option>Antigua and Barbuda</option>
+                                            <option>Argentina, Argentine Republic</option>
+                                            <option>Armenia, Republic of</option>
+                                            <option>Aruba</option>
+                                            <option>Australia, Commonwealth of</option>
+                                            <option>Austria, Republic of</option>
+                                            <option>Azerbaijan, Republic of</option>
+                                            <option>Bahamas, Commonwealth of the</option>
+                                            <option>Bahrain, Kingdom of</option>
+                                            <option>Bangladesh, People\'s Republic of</option>
+                                            <option>Barbados</option>
+                                            <option>Belarus, Republic of</option>
+                                            <option>Belgium, Kingdom of</option>
+                                            <option>Belize</option>
+                                            <option>Benin, Republic of</option>
+                                            <option>Bermuda</option>
+                                            <option>Bhutan, Kingdom of</option>
+                                            <option>Bolivia, Republic of</option>
+                                            <option>Bosnia and Herzegovina</option>
+                                            <option>Botswana, Republic of</option>
+                                            <option>Bouvet Island (Bouvetoya)</option>
+                                            <option>Brazil, Federative Republic of</option>
+                                            <option>British Indian Ocean Territory (Chagos Archipelago)</option>
+                                            <option>British Virgin Islands</option>
+                                            <option>Brunei Darussalam</option>
+                                            <option>Bulgaria, Republic of</option>
+                                            <option>Burkina Faso</option>
+                                            <option>Burundi, Republic of</option>
+                                            <option>Cambodia, Kingdom of</option>
+                                            <option>Cameroon, Republic of</option>
+                                            <option>Canada</option>
+                                            <option>Cape Verde, Republic of</option>
+                                            <option>Cayman Islands</option>
+                                            <option>Central African Republic</option>
+                                            <option>Chad, Republic of</option>
+                                            <option>Chile, Republic of</option>
+                                            <option>China, People\'s Republic of</option>
+                                            <option>Christmas Island</option>
+                                            <option>Cocos (Keeling) Islands</option>
+                                            <option>Colombia, Republic of</option>
+                                            <option>Comoros, Union of the</option>
+                                            <option>Congo, Democratic Republic of the</option>
+                                            <option>Congo, Republic of the</option>
+                                            <option>Cook Islands</option>
+                                            <option>Costa Rica, Republic of</option>
+                                            <option>Cote d\'Ivoire, Republic of</option>
+                                            <option>Croatia, Republic of</option>
+                                            <option>Cuba, Republic of</option>
+                                            <option>Cyprus, Republic of</option>
+                                            <option>Czech Republic</option>
+                                            <option>Denmark, Kingdom of</option>
+                                            <option>Djibouti, Republic of</option>
+                                            <option>Dominica, Commonwealth of</option>
+                                            <option>Dominican Republic</option>
+                                            <option>Ecuador, Republic of</option>
+                                            <option>Egypt, Arab Republic of</option>
+                                            <option>El Salvador, Republic of</option>
+                                            <option>Equatorial Guinea, Republic of</option>
+                                            <option>Eritrea, State of</option>
+                                            <option>Estonia, Republic of</option>
+                                            <option>Ethiopia, Federal Democratic Republic of</option>
+                                            <option>Faroe Islands</option>
+                                            <option>Falkland Islands (Malvinas)</option>
+                                            <option>Fiji, Republic of the Fiji Islands</option>
+                                            <option>Finland, Republic of</option>
+                                            <option>France, French Republic</option>
+                                            <option>French Guiana</option>
+                                            <option>French Polynesia</option>
+                                            <option>French Southern Territories</option>
+                                            <option>Gabon, Gabonese Republic</option>
+                                            <option>Gambia, Republic of the</option>
+                                            <option>Georgia</option>
+                                            <option>Germany, Federal Republic of</option>
+                                            <option>Ghana, Republic of</option>
+                                            <option>Gibraltar</option>
+                                            <option>Greece, Hellenic Republic</option>
+                                            <option>Greenland</option>
+                                            <option>Grenada</option>
+                                            <option>Guadeloupe</option>
+                                            <option>Guam</option>
+                                            <option>Guatemala, Republic of</option>
+                                            <option>Guernsey, Bailiwick of</option>
+                                            <option>Guinea, Republic of</option>
+                                            <option>Guinea-Bissau, Republic of</option>
+                                            <option>Guyana, Co-operative Republic of</option>
+                                            <option>Haiti, Republic of</option>
+                                            <option>Heard Island and McDonald Islands</option>
+                                            <option>Holy See (Vatican City State)</option>
+                                            <option>Honduras, Republic of</option>
+                                            <option>Hong Kong, Special Administrative Region of China</option>
+                                            <option>Hungary, Republic of</option>
+                                            <option>Iceland, Republic of</option>
+                                            <option>India, Republic of</option>
+                                            <option>Indonesia, Republic of</option>
+                                            <option>Iran, Islamic Republic of</option>
+                                            <option>Iraq, Republic of</option>
+                                            <option>Ireland</option>
+                                            <option>Isle of Man</option>
+                                            <option>Israel, State of</option>
+                                            <option>Italy, Italian Republic</option>
+                                            <option>Jamaica</option>
+                                            <option>Japan</option>
+                                            <option>Jersey, Bailiwick of</option>
+                                            <option>Jordan, Hashemite Kingdom of</option>
+                                            <option>Kazakhstan, Republic of</option>
+                                            <option>Kenya, Republic of</option>
+                                            <option>Kiribati, Republic of</option>
+                                            <option>Korea, Democratic People\'s Republic of</option>
+                                            <option>Korea, Republic of</option>
+                                            <option>Kuwait, State of</option>
+                                            <option>Kyrgyz Republic</option>
+                                            <option>Lao People\'s Democratic Republic</option>
+                                            <option>Latvia, Republic of</option>
+                                            <option>Lebanon, Lebanese Republic</option>
+                                            <option>Lesotho, Kingdom of</option>
+                                            <option>Liberia, Republic of</option>
+                                            <option>Libyan Arab Jamahiriya</option>
+                                            <option>Liechtenstein, Principality of</option>
+                                            <option>Lithuania, Republic of</option>
+                                            <option>Luxembourg, Grand Duchy of</option>
+                                            <option>Macao, Special Administrative Region of China</option>
+                                            <option>Macedonia, the former Yugoslav Republic of</option>
+                                            <option>Madagascar, Republic of</option>
+                                            <option>Malawi, Republic of</option>
+                                            <option>Malaysia</option>
+                                            <option>Maldives, Republic of</option>
+                                            <option>Mali, Republic of</option>
+                                            <option>Malta, Republic of</option>
+                                            <option>Marshall Islands, Republic of the</option>
+                                            <option>Martinique</option>
+                                            <option>Mauritania, Islamic Republic of</option>
+                                            <option>Mauritius, Republic of</option>
+                                            <option>Mayotte</option>
+                                            <option>Mexico, United Mexican States</option>
+                                            <option>Micronesia, Federated States of</option>
+                                            <option>Moldova, Republic of</option>
+                                            <option>Monaco, Principality of</option>
+                                            <option>Mongolia</option>
+                                            <option>Montenegro, Republic of</option>
+                                            <option>Montserrat</option>
+                                            <option>Morocco, Kingdom of</option>
+                                            <option>Mozambique, Republic of</option>
+                                            <option>Myanmar, Union of</option>
+                                            <option>Namibia, Republic of</option>
+                                            <option>Nauru, Republic of</option>
+                                            <option>Nepal, State of</option>
+                                            <option>Netherlands Antilles</option>
+                                            <option>Netherlands, Kingdom of the</option>
+                                            <option>New Caledonia</option>
+                                            <option>New Zealand</option>
+                                            <option>Nicaragua, Republic of</option>
+                                            <option>Niger, Republic of</option>
+                                            <option>Nigeria, Federal Republic of</option>
+                                            <option>Niue</option>
+                                            <option>Norfolk Island</option>
+                                            <option>Northern Mariana Islands, Commonwealth of the</option>
+                                            <option>Norway, Kingdom of</option>
+                                            <option>Oman, Sultanate of</option>
+                                            <option>Pakistan, Islamic Republic of</option>
+                                            <option>Palau, Republic of</option>
+                                            <option>Palestinian Territory, Occupied</option>
+                                            <option>Panama, Republic of</option>
+                                            <option>Papua New Guinea, Independent State of</option>
+                                            <option>Paraguay, Republic of</option>
+                                            <option>Peru, Republic of</option>
+                                            <option>Philippines, Republic of the</option>
+                                            <option>Pitcairn Islands</option>
+                                            <option>Poland, Republic of</option>
+                                            <option>Portugal, Portuguese Republic</option>
+                                            <option>Puerto Rico, Commonwealth of</option>
+                                            <option>Qatar, State of</option>
+                                            <option>Reunion</option>
+                                            <option>Romania</option>
+                                            <option>Russian Federation</option>
+                                            <option>Rwanda, Republic of</option>
+                                            <option>Saint Barthelemy</option>
+                                            <option>Saint Helena</option>
+                                            <option>Saint Kitts and Nevis, Federation of</option>
+                                            <option>Saint Lucia</option>
+                                            <option>Saint Martin</option>
+                                            <option>Saint Pierre and Miquelon</option>
+                                            <option>Saint Vincent and the Grenadines</option>
+                                            <option>Samoa, Independent State of</option>
+                                            <option>San Marino, Republic of</option>
+                                            <option>Sao Tome and Principe, Democratic Republic of</option>
+                                            <option>Saudi Arabia, Kingdom of</option>
+                                            <option>Senegal, Republic of</option>
+                                            <option>Serbia, Republic of</option>
+                                            <option>Seychelles, Republic of</option>
+                                            <option>Sierra Leone, Republic of</option>
+                                            <option>Singapore, Republic of</option>
+                                            <option>Slovakia (Slovak Republic)</option>
+                                            <option>Slovenia, Republic of</option>
+                                            <option>Solomon Islands</option>
+                                            <option>Somalia, Somali Republic</option>
+                                            <option>South Africa, Republic of</option>
+                                            <option>South Georgia and the South Sandwich Islands</option>
+                                            <option>Spain, Kingdom of</option>
+                                            <option>Sri Lanka, Democratic Socialist Republic of</option>
+                                            <option>Sudan, Republic of</option>
+                                            <option>Suriname, Republic of</option>
+                                            <option>Svalbard &amp; Jan Mayen Islands</option>
+                                            <option>Swaziland, Kingdom of</option>
+                                            <option>Sweden, Kingdom of</option>
+                                            <option>Switzerland, Swiss Confederation</option>
+                                            <option>Syrian Arab Republic</option>
+                                            <option>Taiwan</option>
+                                            <option>Tajikistan, Republic of</option>
+                                            <option>Tanzania, United Republic of</option>
+                                            <option>Thailand, Kingdom of</option>
+                                            <option>Timor-Leste, Democratic Republic of</option>
+                                            <option>Togo, Togolese Republic</option>
+                                            <option>Tokelau</option>
+                                            <option>Tonga, Kingdom of</option>
+                                            <option>Trinidad and Tobago, Republic of</option>
+                                            <option>Tunisia, Tunisian Republic</option>
+                                            <option>Turkey, Republic of</option>
+                                            <option>Turkmenistan</option>
+                                            <option>Turks and Caicos Islands</option>
+                                            <option>Tuvalu</option>
+                                            <option>Uganda, Republic of</option>
+                                            <option>Ukraine</option>
+                                            <option>United Arab Emirates</option>
+                                            <option>United Kingdom of Great Britain &amp; Northern Ireland</option>
+                                            <option>United States of America</option>
+                                            <option>United States Minor Outlying Islands</option>
+                                            <option>United States Virgin Islands</option>
+                                            <option>Uruguay, Eastern Republic of</option>
+                                            <option>Uzbekistan, Republic of</option>
+                                            <option>Vanuatu, Republic of</option>
+                                            <option>Venezuela, Bolivarian Republic of</option>
+                                            <option>Vietnam, Socialist Republic of</option>
+                                            <option>Wallis and Futuna</option>
+                                            <option>Western Sahara</option>
+                                            <option>Yemen</option>
+                                            <option>Zambia, Republic of</option>
+                                            <option>Zimbabwe, Republic of</option>
+                                        </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Phone number: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="tel" class="contactField" name="f_phonenumber"
+                                            placeholder="Phone number" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Fax number:</td>
+                                    <td class="contactInputTd"><input type="tel" class="contactField" name="f_faxnumber"
+                                            placeholder="Fax number" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Skype contact name:</td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_skypecontactname"
+                                            placeholder="Skype contact name" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Website: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="url" class="contactField" name="f_website"
+                                            placeholder="Website" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Email: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="email" class="contactField" name="f_email"
+                                            placeholder="Email" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="legend" colspan="2">
+                                        <legend>Business profile</legend>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Formation date: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="date" class="contactField" name="f_formationdate"
+                                            placeholder="Formation date" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Number of employees: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField" name="f_numberofemployees"
+                                            placeholder="Number of employees" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Spoken and written languages for communication: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField"
+                                            name="f_spokenandwrittenlanguagesforcommunication"
+                                            placeholder="Spoken and written languages for communication" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Annual revenue of the company in USD: <span>*</span></td>
+                                    <td class="contactInputTd"><input type="text" class="contactField"
+                                            name="f_annualrevenueofthecompanyinusd"
+                                            placeholder="Annual revenue of the company in USD" value="" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">(Brief) description of business activities: <span>*</span></td>
+                                    <td class="contactInputTd"><textarea cols="40" rows="5" class="contactTextarea"
+                                            name="f_briefdescriptionofbusinessactivities"
+                                            placeholder="(Brief) description of business activities" required=""></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Main products your company distributes at the moment:
+                                        <span>*</span></td>
+                                    <td class="contactInputTd"><textarea cols="40" rows="5" class="contactTextarea"
+                                            name="f_mainproductsyourcompanydistributesatthemoment"
+                                            placeholder="Main products your company distributes at the moment"
+                                            required=""></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Target customers: <span>*</span></td>
+                                    <td class="contactInputTd"><textarea cols="40" rows="5" class="contactTextarea"
+                                            name="f_targetcustomers" placeholder="Target customers" required=""></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">How are you going to sell WinRAR?: <span>*</span></td>
+                                    <td class="contactInputTd"><textarea cols="40" rows="5" class="contactTextarea"
+                                            name="f_howareyougoingtosellwinrar" placeholder="How are you going to sell WinRAR?"
+                                            required=""></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Are you going to promote WinRAR on your website?: <span>*</span>
+                                    </td>
+                                    <td class="contactInputTd"><input type="radio" name="f_areyougoingtopromotewinraronyourwebsite"
+                                            value="yes" id="radio23_0" required=""><label for="radio23_0">yes</label><input
+                                            type="radio" name="f_areyougoingtopromotewinraronyourwebsite" value="no" id="radio23_1"
+                                            required=""><label for="radio23_1">no</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Send a copy to me:</td>
+                                    <td class="contactInputTd"><label><input type="checkbox" name="f_sendacopytome" value="set">
+                                            Send me an email receipt of my responses.</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="contactSubjectTd">Agreement: <span>*</span></td>
+                                    <td class="contactInputTd"><label><input type="checkbox" name="f_agreement" value="set"
+                                                required=""> I agree that, in order to process this request, the data transmitted
+                                            will be processed in accordance with the <a href="/cookies.html" target="_blank">data
+                                                protection declaration</a>. I acknowledge that consent can be withdrawn at any
+                                            time.</label></td>
+                                </tr>
+                                <tr>
+                                    <td id="cpt_txt" class="contactSubjectTd">Spam protection: <span>*</span></td>
+                                    <td id="cpt_img" class="contactInputTd">
+                                        <div class="captcha"><img src="/fileadmin/scripts/captcha/captcha.php?RELOAD=" alt="Captcha"
+                                                title="Click to reload the captcha"
+                                                onclick="this.src+=1;document.getElementById('captcha_code').value='';" width="140"
+                                                height="40"></div>
+                                        <div id="c_c"><input type="text" name="captcha_code" id="captcha_code" size="9"
+                                                maxlength="5" required=""></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table><input type="email" name="email" style="display:none;"><input type="hidden" name="send"
+                            value="1"><input type="submit" value="Send to WinRAR">
+                    </form>
+                </div>
+            </div>
+
+            </div>
+          </div>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <img src="./assets/img/rar/logo2.png" width="30px">
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 win.rar GmbH All rights reserved</span>
+              </div>
+
+              <ul class="nav justify-content-center border-bottom pb-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./privacy.html" style="color: gray;">Privacy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./imprint.html" style="color: gray;">Imprint</a>
+                </li>
+              </ul>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/winrar/"><img src="./assets/img/social/facebook.svg" width="25px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.twitter.com/winrar_rarlab/"><img src="./assets/img/social/twitter-x.svg" width="25px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.youtube.com/WinRAR-RARLAB"><img src="./assets/img/social/youtube.svg" width="25px"></a></li>
+              </ul>
+            </footer>
+          </div>   
+
+    </body>
+
+</html>
