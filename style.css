@@ -4,7 +4,7 @@ body {
 .custom-navbar{
     background-color: #ECF6F9;
 }
-.startContainer{
+.startContainer > div{
     background: linear-gradient(to right, #def7ff, #ffffff);
 }
 .offcanvas{
