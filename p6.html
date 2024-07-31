@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WinRAR</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+            crossorigin="anonymous">
+    </head>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <body>
+        
+        <nav class="navbar navbar-expand-lg rounded custom-navbar shadow-lg border p-2 rounded-5" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="./index.html" style="color: rgb(73, 73, 73);"><img src="./assets/img/rar/logo2.png" width="35px"> WinRAR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./products.html">Products</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./download.html">Download</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./industries.html">Industries</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./partner.html">Partner</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./support.html">Support</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./news.html">News</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search" style="width: 400px;">
+                    <input class="form-control me-3" type="search" placeholder="Enter your search term here" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+            
+              </div>
+            </div>
+          </nav>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="container my-5 startContainer">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg lead">
+                
+              <div style="padding: 40px;">
+                    <h1>FAQ</h1><br>
+                    <ul class="nav nav-pills justify-content-center fw-bold">
+                        <li class="nav-item">
+                        <a class="nav-link text-body-secondary" aria-current="page" href="./faq.html">Licensing</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-body-secondary" href="./troubleshooting.html">Troubleshooting</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-body-secondary" href="./encryption.html">Encryption</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./passwords.html">Passwords</a>
+                        </li>
+                    </ul><br>
+
+                    <h2>How Does the Recovery Record Feature Work?</h2><br>
+                    <div class="faq-pw">
+                      <p class="bodytext">In addition to the Encryption Feature, WinRAR‘s strength lies in the recovery of data in partially damaged archives. With the RAR 5.0 format, the Recovery Record is based on Reed-Solomon  codes. This helps to increase the chance of data recovery significantly.
+                      </p>
+                      <p class="bodytext">A recovery volume contains a certain sum of volumes, if you have a list of numbers, where one is missing, and you know the overall sum, you can reconstruct the missing number.
+                      </p>
+                      <p class="bodytext">Imagine you have the numbers 25, 14, 77 and 41. You know that there is one number missing. The overall sum is 181. 25+14+77+41=157. The only number that adds up to 181 is 24.
+                      </p>
+                      <p class="bodytext">If you had the 24 and the 77 was missing you would calculate as follows: 24+25+14+41=104. The number that would add up to 181 is 77.
+                      </p>
+                      <p class="bodytext">This is the way that the recovery record enables WinRAR to find any missing number.
+                      </p>
+                      <p class="bodytext">When you compress data, for example music files, into .rar files, you can choose to add the “Recovery Record” to the .rar archive. You can choose a value from 1 to 10 percent. The number indicates the percentage of the Recovery Record size of the archive. In the RAR 5.0 format, the recovery record can be as large as the archive itself. If you have multiple data damage, it could be less.
+                      </p>
+                      <p class="bodytext">Using Recovery Record slightly increases the size of your .rar files, but it helps to recover data should your file become corrupted by a virus, bad disc, etc. The larger recovery record allows you to restore a bigger damaged area, but increases the size of the archive and the process is slower.
+                      </p></div>
+
+              </div>
+            </div>
+          </div>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <img src="./assets/img/rar/logo2.png" width="30px">
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 win.rar GmbH All rights reserved</span>
+              </div>
+
+              <ul class="nav justify-content-center border-bottom pb-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./privacy.html" style="color: gray;">Privacy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./imprint.html" style="color: gray;">Imprint</a>
+                </li>
+              </ul>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/winrar/"><img src="./assets/img/social/facebook.svg" width="25px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.twitter.com/winrar_rarlab/"><img src="./assets/img/social/twitter-x.svg" width="25px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.youtube.com/WinRAR-RARLAB"><img src="./assets/img/social/youtube.svg" width="25px"></a></li>
+              </ul>
+            </footer>
+          </div>   
+
+    </body>
+
+</html>

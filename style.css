@@ -1,8 +1,9 @@
 body {
-    background: linear-gradient(to bottom, #ECF6F9, #ffffff);
+    background: linear-gradient(to bottom, #ECF6F9 20%, #ffffff);
+    min-height: 100vh;
 }
 .custom-navbar{
-    background-color: #ECF6F9;
+    background-color: transparent;
 }
 .startContainer > div{
     background: linear-gradient(to right, #def7ff, #ffffff);
