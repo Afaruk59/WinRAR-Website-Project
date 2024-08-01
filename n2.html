@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WinRAR</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+            crossorigin="anonymous">
+    </head>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <body>
+        
+        <nav class="navbar navbar-expand-lg rounded custom-navbar shadow-lg border p-2 rounded-5" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="./index.html" style="color: rgb(73, 73, 73);"><img src="./assets/img/rar/logo2.png" width="35px"> WinRAR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./products.html">Products</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./download.html">Download</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./industries.html">Industries</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./partner.html">Partner</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./support.html">Support</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./news.html">News</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search" style="width: 400px;">
+                    <input class="form-control me-3" type="search" placeholder="Enter your search term here" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+            
+              </div>
+            </div>
+          </nav>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="container my-5 startContainer">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg lead">
+                
+              <div style="padding: 40px;">
+                <h2><img src="./assets/img/rar/rar-label.png" width="70px" style="margin-left: -64px;">WinRAR 7.00 Beta 2 released</h2>
+
+                <div class="ad" id="winrar-news-view"><ol style="list-style-type:decimal">
+                    <li>
+                      64-bit WinRAR version uses 64-bit SFX modules by default.
+                      64-bit SFX modules are needed to unpack archives with dictionaries
+                      exceeding 1 GB.
+                        <br>&nbsp;<br>
+                      32-bit modules are renamed to Default32.SFX, Zip32.SFX, WinCon32.SFX.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                      Maximum allowed dictionary size for archiving and extraction
+                      can be specified in gigabytes in MaxDictA and MaxDictE variables
+                      in "HKEY_CURRENT_USER\Software\WinRAR\Policy" Registry key.
+                      If these variables are smaller than corresponding values defined
+                      in WinRAR interface, they override interface values.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                      "Benchmark" command:
+                        <br>&nbsp;<br>
+                        a) wider text area allows to fit longer system information strings;
+                        <br>&nbsp;<br>
+                        b) "Copy to clipboard" buttom copies both text and window screenshot.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                      Note to software developers: FCI_RAR5_COMPAT and UNPACK_MAX_DICT
+                      values have been added in UnRAR source code 7.0.3. If earlier version
+                      of UnRAR 7 source code was integrated into application, it is necessary
+                      to update it to support them.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                      Console RAR filters out character 27 from screen output. It is done
+                      for security reasons, because this character can be used to declare
+                      ANSI escape control sequences in some terminal applications.
+                        <br>&nbsp;<br>
+                      We are thankful to Siddharth Dushantha for bringing this issue
+                      to our attention.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                      "Remove" option is added to "Original archive name and time" list
+                      on "Options" page of "Info" dialog. Unlike "Do not save", it removes
+                      the archive information even if no other options in this dialog
+                      are modified.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                      It is possible to enable "Packed" column in WinRAR file list also
+                      outside of archives to see NTFS compressed file size.
+                        <br>&nbsp;<br>
+                    </li>
+                    <li>
+                        Bugs fixed:
+                        <br>&nbsp;<br>
+                        <ol style="list-style-type:lower-latin">
+                            <li>
+                                invalid names could be displayed for files inside of LZH archives;
+                                <br>&nbsp;<br>
+                            </li>
+                            <li>
+                                archiving dialog opened from Windows 11 context menu could be
+                                unexpectedly closed soon after opening;
+                                <br>&nbsp;<br>
+                            </li>
+                            <li>
+                                asterisk character wasn't displayed after encrypted archived files
+                                in WinRAR file list;
+                                <br>&nbsp;<br>
+                            </li>
+                            <li>
+                                value displayed as the dictionary size in archive properties
+                                in Windows Explorer could be either by 1024 larger than actual
+                                dictionary size or missing completely;
+                                <br>&nbsp;<br>
+                            </li>
+                            <li>
+                                '+' character from "Generate archive name by mask" string was
+                                included into resulting archive name;
+                                <br>&nbsp;<br>
+                            </li>
+                            <li>
+                                environment variables were not expanded in command parameters
+                                inside of SFX archive script.
+                                <br>&nbsp;<br>
+                            </li>
+                        </ol>
+                    </li>
+                </ol><p><b>About win.rar GmbH:</b><br>win.rar GmbH has been the official distributor of WinRAR and RARLAB products since February 2002 and handles all support, marketing and sales related to WinRAR &amp; rarlab.com. win.rar GmbH is registered in Germany and is represented worldwide by local partners in more than 40 countries on six continents. win.rar's declared objective is to provide first-class quality support and to optimize its software to meet customer's requirements in accordance with their valued feedback. For more information about WinRAR and win.rar GmbH please visit our website: <a href="index.html">www.win-rar.com</a></p>
+                <p>&nbsp;</p></div>
+
+              </div>
+
+            </div>
+          </div>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <img src="./assets/img/rar/logo2.png" width="30px">
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 win.rar GmbH All rights reserved</span>
+              </div>
+
+              <ul class="nav justify-content-center border-bottom pb-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./privacy.html" style="color: gray;">Privacy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./imprint.html" style="color: gray;">Imprint</a>
+                </li>
+              </ul>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/winrar/"><img src="./assets/img/social/facebook.svg" width="25px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.twitter.com/winrar_rarlab/"><img src="./assets/img/social/twitter-x.svg" width="25px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.youtube.com/WinRAR-RARLAB"><img src="./assets/img/social/youtube.svg" width="25px"></a></li>
+              </ul>
+            </footer>
+          </div>   
+
+    </body>
+
+</html>
